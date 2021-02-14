@@ -1,0 +1,28 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #111111;
+    padding-top: 2rem;
+}
+
+#title {
+    margin: auto
+}
+
+header{
+    margin: 1%;
+}
+
+#logo{
+    margin-left: 3%;
+    width: 100%;
+}

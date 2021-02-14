@@ -1,0 +1,32 @@
+#main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.track {
+    border: 1px solid black;
+    position: relative;
+    margin: 1%;
+}
+
+.close {
+    position: absolute;
+    top: 1%;
+    right: 0;
+}
+
+.search {
+    position: absolute;
+    top: 1%;
+    left: 40%;
+}
+
+#addtrack, #checktrack {
+    margin: 1%;
+    border-radius: 8px;
+    height: 40px;
+}
+
+#trackingnumber {
+    padding-left: 1%;
+}

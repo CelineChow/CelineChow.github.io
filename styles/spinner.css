@@ -1,0 +1,28 @@
+/*Hidden class for adding and removing*/
+.lds-dual-ring.hidden {
+    display: none;
+}
+
+/*Spinner Styles*/
+.lds-dual-ring {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #bf34db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+    position: relative;
+    top: 25%;
+    left: 40%;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

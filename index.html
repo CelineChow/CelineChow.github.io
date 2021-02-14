@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Queue System</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="./node_modules/chart.js/dist/Chart.js"></script>
+    <link rel="stylesheet" href="styles/tracking.css">
+    <link rel="stylesheet" href="styles/spinner.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js"></script>
 </head>
 <body>
-    ????
+    <header class="row">
+        <img src="img/logo.png" alt="logo" id="logo" class="col-3">
+        <h1 id="title" class="col">Queue management</h1>
+    </header>
+    <div id="main">
+        <button id="addtrack" onclick=addTracking() class="btn btn-primary">Add tracking</button>
+        <h4 id="trackingnumber" hidden></h4>
+    </div>
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <hr class="light">
+                    <P>999888777</P>
+                    <p>NLB@gmail.com</p>
+                    <p>Dover Drive 16 Singapore, 730696</p>
+                </div>
+                <div class="col-md-6">
+                    <hr class="light">
+                    <h5>Opening Times</h5>
+                    <hr class="light">
+                    <p>Monday to Saturday: 9am-10pm</p>
+                    <p>Sunday and Public holidays: Closed</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy; NLB.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
